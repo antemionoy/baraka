@@ -1,0 +1,584 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/intro-book/intro-book.css">
+    <link rel="stylesheet" href="css/intro-bold/intro-bold.css">
+    <link rel="stylesheet" href="css/intro-black/intro-black.css">
+    <link rel="stylesheet" href="css/icons-fonts/fontello-e01c75f6/css/fontello-ie7-codes.css">
+    <link rel="stylesheet" href="bxslider/jquery.bxslider.css">
+    <link rel="stylesheet" href="studio_slider/css/glide.theme.css">
+    <link rel="stylesheet" href="studio_slider/css/glide.core.css">
+    <link rel="stylesheet" href="select2/select2-4.0.3/dist/css/select2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+    <meta charset="UTF-8">
+    <title>main</title>
+</head>
+
+<body>
+    <div id="sidebar">
+        <ul class="sidebar1">
+            <li><a href="studio-page.html">CТУДИЯ</a></li>
+            <li><a href="masters.html">МАСТЕРА</a></li>
+            <li><a href="portfolio.html">ПОРТФОЛИО</a></li>
+            <li><a href="price-page.html">УСЛУГИ И ЦЕНЫ</a></li>
+            <li class="end-item-sidebar1"><a href="contacts.html">КОНТАКТЫ</a></li>
+        </ul>
+        <ul class="sidebar2">
+            <li class="first-item-sidebar2"><a href="articles.html">CТАТЬИ</a></li>
+            <li><a href="#">КАРТА САЙТА</a></li>
+            <li><span>СПБ</span><a href="#">/ CМОЛЕНКСК</a></li>
+            <li><span>RUS</span><a href="#">/ ENG</a></li>
+        </ul>
+    </div>
+    <div class="main-page">
+        <header class="baraka-header">
+            <div class="menu">
+                <div class="main-content main-menu">
+                    <a href="#" data-toggle="body" id="sidebar-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                </div>
+                <div class="content">
+                    <div class="container mobile-menu baraka-main--menu">
+                        <div class="row">
+                            <div class="baraka-top--box center-block">
+                                <a href="index.html" class="baraka-logo"><img src="pict/baraka-logo.png" alt=""></a>
+                                <a href="studio-page.html" class="baraka-menu--item">Студия</a>
+                                <a href="masters.html" class="baraka-menu--item">Мастера</a>
+                                <a href="portfolio.html" class="baraka-menu--item">Портфолио</a>
+                                <a href="price-page.html" class="baraka-menu--item">Услуги и цены</a>
+                                <a href="contacts.html" class="baraka-menu--item">Контакты</a>
+                                <!-- <select class="js-example-basic-single">
+                                    <option value="CПБ">СПБ</option>
+                                    <option value="СМОЛЕНСК">СМЛ</option>
+                                </select> -->
+                                <div class="toggle_block spb-sml">СПБ
+                                    <span class="spb-sml--item toggle_target">
+                                    <a href="#" class="spb-sml--1" >СПБ</a>
+                                    <a href="#" class="spb-sml--2">СМОЛЕНСК</a>
+                                </span>
+                                </div>
+                                <a href="#" class="rus-eng">ENG</a>
+                                <a href="#" class="header-social-fb hidden-xs hidden-sm social-item">1</a>
+                                <a href="#" class="header-social-vk hidden-xs hidden-sm social-item">2</a>
+                                <a href="#" class="header-social-insta hidden-xs hidden-sm social-item">3</a>
+                                <a href="#" class="header-social-youtube hidden-xs hidden-sm social-item">4</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bxslider-box">
+                        <div class="bxslider">
+                            <a href="#" class="picture-promo" style="background-image: url(img/promo-block.jpg)">
+                                <div class="mask"></div>
+                                <div class="h1-block center-block">
+                                    <div class="promo-title col-xs-10 col-md-6 col-sm-6 col-lg-6">Cтудия,
+                                        <br>где работают художники</div>
+                                </div>
+                            </a>
+                            <a href="#" class="picture-promo" style="background-image: url(img/promo-block-2.jpg)">
+                                <div class="mask"></div>
+                                <div class="h1-block center-block">
+                                    <div class="promo-title col-xs-10 col-md-6 col-sm-6 col-lg-6">Cтудия,
+                                        <br>где работают художники</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="about-studio">
+            <div class="container ">
+                <div class="row">
+                    <div class="about-studio--box center-block">
+                        <div class="about-studio--left col-xs-12 col-md-6 col-lg-6">
+                            <h2 class="about-studio-title col-xs-12">О СТУДИИ</h2>
+                            <span>Студия «Барака» проект одного из создателей<br>«Санкт-Петербургского Фестиваля Татуировки» <br>Дениса Васюкова.</span>
+                            <p>Основной идеей работы студии художественной татуировки «Барака» служит отказ от популярных флэш-сэтов, то есть готовых эскизов татуировок, используемых многими. Мы работаем в области по настоящему художественной татуировки . Все мастера студии являются художниками, а это значит, что они умеют, а главное любят рисовать. Для клиентов студии всегда в первую очередь предлагается разработка индивидуального эскиза под татуировку. Конечно, если речь идёт о реализме, возможна работа с фотографий или подходящих иллюстраций.
+                            </p>
+                        </div>
+                        <div class="about-studio--right col-xs-12 col-sm-12 col-md-6">
+                        <div class="row">
+                            <a href="masters.html">
+                                <div class="item-masters col-xs-6 col-sm-5 col-md-5">МАСТЕРА</div>
+                            </a>
+                            <div class="col-md-1 col-xs-1 col-sm-1"></div>
+                            <a href="portfolio.html">
+                                <div class="item-portfolio col-xs-6 col-sm-5  col-md-5">ПОРТФОЛИО</div>
+                            </a>
+                            </div>
+                            <div class="row">
+                            <a href="price-page.html">
+                                <div class="item-price col-xs-6 col-sm-5 col-md-5">УСЛУГИ И ЦЕНЫ</div>
+                            </a>
+                            <div class="col-sm-1 col-md-1"></div>
+                            <a href="contacts.html">
+                                <div class="item-contacts col-xs-6 col-sm-5 col-md-5">КОНТАКТЫ</div>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="masters-main">
+            <div class="container">
+                <h2 class="masters-main--title">МАСТЕРА</h2>
+                <div class="master-main--slider big ">
+                    <div class="master-slider">
+                        <div class="master-group">
+                            <a href="master-info.html" class="masters-picture "><img src="pict/masters-foto_1.png" alt="">
+                                <p>Тимур Enote</p>
+                            </a>
+                            <a href="table.html" class="masters-picture"><img src="pict/masters-foto_3.png" alt="">
+                                <p>Дмитрий Панфилов</p>
+                            </a>
+                        </div>
+                        <div class="master-group">
+                            <a href="prosmotr_raboty.html" class="masters-picture "><img src="pict/masters-foto_2.png" alt="">
+                                <p>Аксенова Стелла</p>
+                            </a>
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_4.png" alt="">
+                                <p>Таня Лебедь</p>
+                            </a>
+                        </div>
+                        <div class="master-group">
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_5.png" alt="">
+                                <p>Александр Исаев</p>
+                            </a>
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_6.png" alt="">
+                                <p>Игорь Кори</p>
+                            </a>
+                        </div>
+                        <div class="master-group">
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_7.png" alt="">
+                                <p>Ярослав Юркевич</p>
+                            </a>
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_8.png" alt="">
+                                <p>Евгений Шевченко</p>
+                            </a>
+                        </div>
+                        <div class="master-group">
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_9.png" alt="">
+                                <p>Archie Karataev</p>
+                            </a>
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_10.png" alt="">
+                                <p>Александр Ярмоленко</p>
+                            </a>
+                        </div>
+                        <div class="master-group">
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_11.png" alt="">
+                                <p>Александр Заруз</p>
+                            </a>
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_12.png" alt="">
+                                <p>Александр Павлов</p>
+                            </a>
+                        </div>
+                        <div class="master-group">
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_13.png" alt="">
+                                <p>Илья Лебедь</p>
+                            </a>
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_14.png" alt="">
+                                <p>Константин Новиков</p>
+                            </a>
+                        </div>
+                        <div class="master-group">
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_15.png" alt="">
+                                <p>Имя Автора</p>
+                            </a>
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_16.png" alt="">
+                                <p>Имя Автора</p>
+                            </a>
+                        </div>
+                        <div class="master-group">
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_17.png" alt="">
+                                <p>Имя Автора</p>
+                            </a>
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_18.png" alt="">
+                                <p>Имя Автора</p>
+                            </a>
+                        </div>
+                        <div class="master-group">
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_19.png" alt="">
+                                <p>Имя Автора</p>
+                            </a>
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_20.png" alt="">
+                                <p>Имя Автора</p>
+                            </a>
+                        </div>
+                        <div class="master-group">
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_21.png" alt="">
+                                <p>Имя Автора</p>
+                            </a>
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_22.png" alt="">
+                                <p>Имя Автора</p>
+                            </a>
+                        </div>
+                        <div class="master-group">
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_23.png" alt="">
+                                <p>Имя Автора</p>
+                            </a>
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_24.png" alt="">
+                                <p>Имя Автора</p>
+                            </a>
+                        </div>
+                        <div class="master-group">
+                            <a href="#" class="masters-picture"><img src="pict/masters-foto_25.png" alt="">
+                                <p>Имя Автора</p>
+                            </a>
+                            <div class="masters-picture"><img src="pict/masters-foto_0.png" alt="">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="master-group">
+                            <div class="masters-picture"><img src="pict/masters-foto_0.png" alt="">
+                                <p></p>
+                            </div>
+                            <div class="masters-picture"><img src="pict/masters-foto_0.png" alt="">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-main">
+            <div class="container photo-100">
+                <h2 class="portfolio-main--title">ПОРТФОЛИО</h2>
+                <div class="row portfolio-main--box">
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_1.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_2.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_3.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_4.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_5.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_6.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_7.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_8.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_9.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_10.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class=" col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_11.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_12.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3  col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_13.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_14.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_15.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="большаякартинка" rel="prettyPhoto[gal]" class="col-xs-6 col-md-3 col-lg-3 portfolio-main--picture">
+                        <div class="row">
+                            <img src="img/portfolio-picture_16.jpg" alt="">
+                            <div class="hover-block">
+                                <div class="text-hover--block1">
+                                    <div class="text-hover--block2">
+                                        <p>ИГОРЬ КОРИ</p>
+                                        <p>Гравюра на животе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="btn-box col-xs-12">
+                    <button class="baraka-btn portfolio-btn ">ПОКАЗАТЬ ЕЩЕ</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-main">
+            <div class="container">
+                <div class="row form-fields">
+                    <h2 class="form-main--title">ОБРАТНАЯ СВЯЗЬ</h2>
+                    <form id="form__block" class="form-box ">
+                        <div class="form-group">
+                            <input type="name" class="form-control " id="exampleInputName" placeholder="ФИО" data-errortext="Укажите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <input type="phone" class="form-control" id="exampleInputPhone" placeholder="Телефон" data-errortext="Укажите ваш телефон">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail" placeholder="Эл.почта" data-errortext="Укажите вашу эл. почту">
+                        </div>
+                        <div class="form-group">
+                            <textarea type="text" class="form-control form-textarea" id="exampleText" placeholder="Cообщение"></textarea>
+                        </div>
+                        <div class="error-box col-xs-12 col-md-9">
+                        </div>
+                        <div class="btn-box col-xs-12 col-md-3">
+                            <button tyle="submit" class="btn btn-form btn-black">ОТПРАВИТЬ</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="row form-complite">
+                    <div class="table">
+                        <div class="cell-middle">
+                            Cпасибо,
+                            <br> мы с вами свяжемся!
+                            <br>
+                            <div class="form-complite-close">x</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-contacts--menu">
+            <ul class="lb-spoiler">
+                <div class="spoiler-title">5 студий в Санкт-Петербурге</div>
+                <a href="#">
+                    <li class="spoiler-text">Невский пр. 90/92 </li>
+                </a>
+                <a href="#">
+                    <li class="spoiler-text">Пр. Энгельса 124, корп. 1</li>
+                </a>
+                <a href="#">
+                    <li class="spoiler-text"> Коломяжский пр., д. 15, к. 2</li>
+                </a>
+                <a href="#">
+                    <li class="spoiler-text"><span>Каменноостровский пр., д. 29</span></li>
+                </a>
+                <a href="#">
+                    <li class="spoiler-text">Биржевой пер. д. 4 </li>
+                </a>
+            </ul>
+        </div>
+        <div class="google-map">
+            <div class="google-map">
+                <div id='gmap_canvas'>
+                </div>
+            </div>
+        </div>
+        <div class="info-block--main ">
+            <div class="container">
+                <div class="info-box center-block">
+                    <h4 class="info-block--title">BARAKA - ТАТУ САЛОНЫ В САНКТ-ПЕТЕРБУРГЕ</h4>
+                    <p>Татуировка — это не просто украшение, а выражение индивидуальности. Поэтому наши тату салоны не работают с флэш-сетами — каталогами готовых эскизов. Каждая наша татуировка — это штучный товар. Нашим клиентам доподлинно известно, что такой татуировки, как у них, нет больше ни у кого. BARAKA - Тату студия где работают художники! Уникальность тату, впрочем, еще ничего не говорит о качестве — плохой рисунок тоже может быть уникальным. В наши тату салоны мы берем на работу лишь тех, кто действительно умеет рисовать. Подтверждением этому служат дипломы о высшем художественном образовании и призовые места... <span class="mini">Татуировка — это не просто украшение, а выражение индивидуальности. Поэтому наши тату салоны не работают с флэш-сетами — каталогами готовых эскизов. Каждая наша татуировка — это штучный товар. Нашим клиентам доподлинно известно, что такой татуировки, как у них, нет больше ни у кого. BARAKA - Тату студия где работают художники! Уникальность тату, впрочем, еще ничего не говорит о качестве — плохой рисунок тоже может быть уникальным. В наши тату салоны мы берем на работу лишь тех, кто действительно умеет рисовать. Подтверждением этому служат дипломы о высшем художественном образовании и призовые места...</span></p>
+                    <div class="btn-box">
+                        <button class="baraka-btn info-btn">ПОКАЗАТЬ ПОЛНОСТЬЮ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="footer-block">
+        <div class="container">
+            <div class="center-block footer-box--top">
+                <a href="index.html" class="baraka-logo_footer hidden-xs"><img src="pict/baraka-logo_white.png" alt=""></a>
+                <a href="articles.html" class="footer-block--articles footer-item">СТАТЬИ</a>
+                <a href="#" class=" footer-item footer-block--сart">Карта сайта</a>
+                <div class="footer-item share-png toggle_block">Поделиться
+                    <span class="share-item toggle_target">
+                            <script src="http://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+                            <script src="http://yastatic.net/share2/share.js"></script>
+                            <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,gplus,twitter" ></div>
+                        </span>
+                </div>
+                <a href="#" class="footer-social-fb social-item">1</a>
+                <a href="#" class="footer-social-vk social-item">2</a>
+                <a href="#" class="footer-social-insta social-item">3</a>
+                <a href="#" class="footer-social-youtube social-item">4</a>
+            </div>
+            <div class="footer-box--down">
+                <span class="footer-copyright hidden-xs">© 2016 Baraka</span>
+                <span class="website">Разработка:<a href="#">Tatto Media</a></span>
+                <span class="website web-design">Дизайн: <a href="#">Abstract Logic</a></span>
+            </div>
+            <div class="visible-xs footer-mobile--bottom center-block">
+                <a href="index.html" class="baraka-logo_footer visible-xs col-xs-6"><img src="pict/baraka-logo_white.png" width="150px" alt=""></a>
+                <span class="footer-copyright visible-xs  col-xs-6">© 2016 Baraka</span>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="studio_slider/glide.js"></script>
+    <script src="bxslider/jquery.bxslider.min.js"></script>
+    <script src="select2/select2-4.0.3/dist/js/select2.js"></script>
+    <script src="js/custom_map_tooltip.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

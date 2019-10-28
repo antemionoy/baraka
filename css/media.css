@@ -1,0 +1,1925 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    /* Главная*/
+    /*_________Промо__________ */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .baraka-header {
+        overflow: hidden;
+    }
+    .picture-promo {
+        height: 500px;
+    }
+    .spb-sml {
+        display: none;
+    }
+    .baraka-top--box {
+        padding-top: 20px;
+        margin-left: 0;
+    }
+    .baraka-top--box .baraka-logo img {
+        margin-left: -5px;
+        right: 0;
+    }
+    .baraka-menu--item {
+        display: none;
+    }
+    .city-item {
+        display: none;
+    }
+    .selection {
+        display: none;
+    }
+    .master-info-text p:last-child {
+        margin-bottom: 20px;
+    }
+    .rus-eng {
+        display: none;
+    }
+    .about-studio--left {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .about-studio--left span {
+        display: none;
+        padding: 0;
+    }
+    .about-studio--left p {
+        display: none;
+    }
+    .about-studio-title {
+        padding: 0;
+        text-align: center;
+    }
+    .baraka-main--menu .social-item.header-social-fb:before {
+        top: 370px;
+        left: -195px;
+    }
+    .baraka-main--menu .social-item.header-social-vk:before {
+        top: 372px;
+        left: -180px;
+    }
+    .baraka-main--menu .social-item.header-social-insta:before {
+        top: 370px;
+        left: -150px;
+    }
+    .baraka-main--menu .social-item.header-social-youtube:before {
+        top: 370px;
+        left: -125px;
+    }
+    .promo-title {
+        font-size: 30px;
+        line-height: 36px;
+        padding: 170px 0px 200px 20px;
+        text-transform: uppercase;
+    }
+    .baraka-logo {
+        margin-left: 15px;
+        padding-top: 0;
+    }
+    .baraka-logo img {
+        max-width: 150px;
+        position: relative;
+        z-index: 8;
+        right: 15px;
+    }
+    .mobile-menu {
+        position: absolute;
+        z-index: 8;
+    }
+    .menu {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        right: 0;
+    }
+    body.open-sidebar #sidebar {
+        right: 0px;
+        width: 240px;
+    }
+    #sidebar {
+        position: absolute;
+        right: -240px;
+        background-color: #111111;
+        width: 0px;
+        /*height: 97%;*/
+        box-sizing: border-box;
+        z-index: 2;
+        top: 15px;
+        display: block;
+        -webkit-transition: right 0.4s ease-in-out;
+        -moz-transition: right 0.4s ease-in-out;
+        -ms-transition: right 0.4s ease-in-out;
+        -o-transition: right 0.4s ease-in-out;
+        transition: right 0.4s ease-in-out;
+        overflow: hidden;
+    }
+    body.open-sidebar .main-page {
+        left: -240px;
+    }
+    .main-page {
+        position: relative;
+        left: 0;
+        -webkit-transition: left 0.4s ease-in-out;
+        -moz-transition: left 0.4s ease-in-out;
+        -ms-transition: left 0.4s ease-in-out;
+        -o-transition: left 0.4s ease-in-out;
+        transition: left 0.4s ease-in-out;
+    }
+    .menu-top--box {
+        width: 0;
+        margin-left: -5px;
+        text-align: left;
+    }
+    .master-main--slider .masters-picture:nth-child(n+5) {
+        padding-top: 0;
+    }
+    #sidebar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        padding-top: 5px;
+    }
+    #sidebar ul li {
+        padding-bottom: 19px;
+        padding-left: 20px;
+    }
+    .sidebar2 li span {
+        color: #858585;
+        display: inline-block;
+        padding-right: 3px;
+    }
+    .master-facebook {
+        margin-top: 5px;
+    }
+    #sidebar ul li a {
+        /*padding-top: 19px;
+        padding-left: 20px;*/
+        font-size: 16px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        list-style: none;
+        display: inline-block;
+        -webkit-transition: background 0.3s ease-in-out;
+        -moz-transition: background 0.3s ease-in-out;
+        -ms-transition: background 0.3s ease-in-out;
+        -o-transition: background 0.3s ease-in-out;
+        transition: background 0.3s ease-in-out;
+    }
+    .sidebar1 {
+        background: #181818;
+    }
+    .sidebar2 {
+        background-color: #111111;
+        height: 250px;
+        position: relative;
+        top: 15px;
+    }
+    .first-item-sidebar2 {
+        /*padding-top: 25px;*/
+    }
+    .end-item-sidebar1 {
+        /*padding-bottom: 25px;*/
+    }
+    #sidebar ul li:before {
+        color: inherit;
+        content: "";
+        padding-right: 0px;
+    }
+    .main-content {
+        float: right;
+        left: 85%;
+        /*width: 100%;*/
+        /*height: 100%;*/
+        padding: 10px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        position: absolute;
+        z-index: 6;
+    }
+    .main-content .content {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        width: 100%;
+    }
+    .main-content .content p {
+        width: 100%;
+        line-height: 160%;
+    }
+    .main-content #sidebar-toggle {
+        border-radius: 3px;
+        display: block;
+        position: relative;
+        padding: 10px 7px;
+        float: right;
+        margin-top: -12px;
+        margin-right: 15px;
+    }
+    .main-menu #sidebar-toggle {
+        top: 8px;
+        margin-top: 0;
+    }
+    .main-content #sidebar-toggle .bar {
+        display: block;
+        width: 18px;
+        margin-bottom: 3px;
+        height: 2px;
+        background-color: #fff;
+        border-radius: 1px;
+    }
+    .main-content #sidebar-toggle .bar:last-child {
+        margin-bottom: 0;
+    }
+    /*_______О Студии_______*/
+    .about-studio {
+        padding-bottom: 0px;
+        margin-top: 0;
+        background-color: #fff;
+    }
+    .about-studio-title {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .about-studio--right div {
+        text-align: center;
+    }
+    .about-studio--right .item-contacts {
+        padding-left: 25px;
+    }
+    .about-studio--right {
+        padding-left: 25px;
+        margin-top: 120px;
+        margin-bottom: 40px;
+    }
+    .item-masters {
+        margin-left: -10px;
+    }
+    .studio-right--item {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .item-portfolio:before {
+        left: 50%;
+        margin-left: -35px;
+    }
+    .item-price {
+        margin-left: -10px;
+    }
+    .item-price:before {
+        left: 50%;
+        margin-left: -35px;
+    }
+    .item-contacts:before {
+        /*left: 50%;*/
+        /*margin-left: 10px;*/
+    }
+    /*_______Мастера_______*/
+    .masters-main {
+        background-position: top center;
+        background-size: 700px;
+    }
+    .masters-page--title {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .masters-main--title {
+        font-size: 30px;
+        line-height: 58px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+    .box--one {
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    .masters-picture {
+        height: 330px;
+    }
+    .masters-picture-slider {
+        display: none;
+    }
+    .box--two {
+        display: none;
+    }
+    /*_______Портфолио_______*/
+    .portfolio-main--title {
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+    }
+    .portfolio-page--title {
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+    }
+    .portfolio-main--box {
+        margin-top: 0px;
+    }
+    .portfolio-main--box .portfolio-main--picture:nth-child(4n+1) {
+        display: none;
+    }
+    .portfolio-main--box .portfolio-main--picture:nth-child(7n+3) {
+        display: none;
+    }
+    .portfolio-main--box .portfolio-main--picture:nth-child(3n-1) {
+        display: none;
+    }
+    .portfolio-main--box .portfolio-main--picture:nth-child(6n-2) {
+        display: none;
+    }
+    .text-hover--block1:hover p {
+        font-size: 14px;
+    }
+    .portfolio-main--picture img {
+        height: 50vw;
+    }
+    .portfolio-main--box .hover-block {
+        height: 50vw;
+    }
+    .baraka-btn {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        color: #fff;
+    }
+    .baraka-btn:hover {
+        color: #fff;
+    }
+    .baraka-btn:active {
+        color: #fff;
+    }
+    .baraka-btn:focus {
+        color: #fff;
+    }
+    /*_______Обратная свзяь_______*/
+    .form-main--title {
+        font-size: 30px;
+        line-height: 48px;
+        padding-top: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .form-box {
+        padding-top: 25px;
+        width: 80%;
+    }
+    .btn-form {
+        float: none;
+        padding: 15px 70px;
+    }
+    .form-fields,
+    .form-complite {
+        height: 670px;
+    }
+    .error-box {
+        padding-top: 0;
+    }
+    /*_______Карта_______*/
+    .mytooltip {
+        margin-left: 130px;
+    }
+    .gmnoprint .gm-style-cc div:nth-child(2) {
+        top: 0px;
+        display: none;
+    }
+    .gmnoprint {
+        display: none;
+    }
+    .gmnoprint div:nth-child(2) {
+        top: -15px;
+        display: none;
+    }
+    .gm-style .gm-style-cc span,
+    .gm-style .gm-style-cc a,
+    .gm-style .gm-style-mtc div {
+        display: none;
+    }
+    #gmap_canvas {
+        height: 580px;
+    }
+    .google-map {
+        height: 580px;
+    }
+    /*_______Инфо-блок_______*/
+    .info-block--title {
+        margin-top: 40px;
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+    .info-box {
+        padding-top: 25px;
+        width: 100%;
+    }
+    .info-btn {
+        font-size: 14px;
+    }
+    /*_______Футер_______*/
+    .baraka-logo_footer img {
+        max-width: 130px;
+        margin-left: -10px;
+    }
+    .footer-box--top {
+        width: 70%;
+        padding-top: 40px;
+        text-align: center;
+    }
+    .footer-social-fb:before {
+        left: -145px;
+        top: 30px;
+    }
+    .footer-social-vk:before {
+        top: 31px;
+        left: -125px;
+    }
+    .footer-social-insta:before {
+        top: 30px;
+        left: -95px;
+    }
+    .footer-social-youtube:before {
+        top: 30px;
+        left: -65px;
+    }
+    .toggle_block {
+        display: none;
+    }
+    .footer-block--сart {
+        margin-left: 35px;
+    }
+    .footer-box--down span {
+        padding-top: 5px;
+    }
+    .footer-item {
+        padding: 0;
+        margin-left: 22px;
+    }
+    .footer-box--down {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .website {
+        padding-left: 0px;
+        padding-top: 5px;
+        margin-left: 5px;
+        /*width: 100px;*/
+    }
+    .design-website {
+        margin-left: 20px;
+    }
+    .footer-mobile--bottom {
+        width: 300px;
+        padding-bottom: 60px;
+    }
+    .footer-copyright {
+        padding-top: 6px;
+        padding-left: 35px;
+        font-size: 14px;
+        font-family: "intro_book";
+        color: #858585;
+    }
+    /*Мастера*/
+    .masters-list .masters-picture {
+        padding-top: 30px;
+    }
+    #master-page {
+        background-size: 800px;
+        padding-bottom: 0;
+    }
+    .masters-list {
+        padding-bottom: 40px;
+    }
+    .top-header {
+        padding-top: 20px;
+    }
+    /*Портфолио*/
+    .portfolio {
+        padding-bottom: 0;
+    }
+    .refresh-png {
+        display: none;
+    }
+    .hover-block {
+        overflow: hidden;
+        height: 100vw;
+    }
+    .portfolio-picture img {
+        height: 100vw;
+    }
+    .header-bottom--line {
+        border-bottom: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .refresh-box {
+        display: none;
+    }
+    /*Cтатьи*/
+    .articles-picture--img {
+        padding: 0;
+    }
+    .articles-title:before {
+        display: none;
+    }
+    .articles-title {
+        font-size: 30px;
+        padding-top: 0px;
+        margin-bottom: 15px;
+    }
+    .articles-block {
+        padding-top: 20px;
+    }
+    /*    .studio-slider{
+        height: 200px;
+    }*/
+    .row:nth-child(2n).articles-text--block {
+        float: none;
+    }
+    .row:nth-child(2n+1).articles-picture--block {
+        float: none;
+    }
+    .artilces-text--one {
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin: 0;
+    }
+    .articles-text--two {
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .articles-more {
+        padding-left: 20px;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+    .articles-more:before {
+        left: 110px;
+        top: 5px;
+    }
+    /*Cтраница статьи*/
+    .articles-page--block img {
+        padding: 0;
+        float: none;
+    }
+    .articles-page--main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    articles-page--main img {
+        padding: 0;
+    }
+    .articles-page--main h5 {
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .articles-page--main p {
+        width: 100%;
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .articles-page--main p:last-child {
+        padding-bottom: 40px;
+    }
+    .articles-page--block {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .articles-text--block h3 {
+        font-size: 30px;
+        margin-left: 20px;
+        line-height: 30px;
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+    .articles-text--block p {
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 45px;
+        width: 80%;
+    }
+    .articles-page--title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .articles-page--main .row:nth-child(3n) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .all-items--aricles {
+        margin: 0;
+        padding-left: 35px;
+        margin-left: -10px;
+    }
+    .articles-page-img {
+        padding: 0;
+    }
+    .art-text--one {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 20px;
+    }
+    .all-items--aricles:before {
+        top: 5px;
+        left: 10px;
+    }
+    /*Студия*/
+    .studio-page--title {
+        margin: 0;
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .studio-text--left {
+        padding: 0;
+    }
+    .studio-text--right {
+        padding: 0;
+    }
+    .studio-admins--block {
+        padding: 0;
+        margin: 0;
+    }
+    .studio-director--text,
+    .studio-admins--text {
+        margin-left: 0px;
+        padding-top: 30px;
+    }
+    .who-title {
+        padding-top: 70px;
+        padding-left: 0;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    .studio-block--text p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .studio-director--text h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .studio-block--text {
+        margin: 0;
+        padding: 0;
+    }
+    .studio-director--text p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    .prev,
+    .next {
+        display: none;
+    }
+    .mini-prev,
+    .mini-next {
+        display: block;
+    }
+    .glide--horizontal .glide__arrow.mini-prev:focus:before {
+        width: 31px;
+        height: 31px;
+        background-position: -10px -364px;
+    }
+    .admins-block--one {
+        margin: 0;
+        padding-top: 60px;
+    }
+    .studio-block--end p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    .studio-block--end {
+        margin: 0px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .admins-block--two {
+        margin: 0;
+    }
+    .studio-director--img {
+        padding: 0;
+    }
+    .director-img {
+        padding: 0;
+        padding-top: 55px;
+    }
+    /*Страница мастера*/
+    .all-masters--item {
+        margin-left: 15px;
+        margin-top: -15px;
+        margin-bottom: 15px;
+    }
+    .width-21 {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .master-social {
+        font-size: 13px;
+        line-height: 18px;
+        padding-top: 10px;
+    }
+    .master-info--picture {
+        padding: 0;
+    }
+    .master-instagram:before {
+        top: 12px;
+    }
+    .master-painting:after {
+        display: none;
+    }
+    .master-facebook:before {
+        top: 10px;
+    }
+    .master-info--img {
+        margin-top: 20px;
+    }
+    .master-posotion {
+        margin-top: 10px;
+    }
+    .master-person {
+        margin-top: 15px;
+    }
+    .master-text--one {
+        font-size: 14px;
+    }
+    .master-info-text {
+        margin-left: 20px;
+        padding-top: 30px;
+    }
+    .master-info-text p {
+        font-size: 14px;
+        /*width: 80%;*/
+    }
+    .master-adress {
+        padding-bottom: 20px;
+    }
+    .master-info-text h3 {
+        font-size: 30px;
+        line-height: 46px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .master-info-text span {
+        margin-top: 20px;
+    }
+    .master-logo {
+        display: none;
+    }
+    /*Контакты*/
+    .contacts-page--title {
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        margin: 0;
+    }
+    .contacts-block {
+        margin-left: 0;
+    }
+    .contacts-block span {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .contacts-block p {
+        font-size: 14px;
+        padding-top: 5px;
+        padding-bottom: 25px;
+    }
+    .contacts-block:last-child {
+        /*padding-bottom: 65px;*/
+    }
+    .contacts-text--one {
+        font-size: 19px;
+        line-height: 20px;
+        margin-bottom: 0px;
+    }
+    .contacts-text--two {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .mobile-contacts--menu {
+        display: block;
+    }
+    /*Услуги и цены*/
+    .price-page--block h6 {
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 25px;
+        margin-bottom: 0px;
+        padding-top: 40px;
+        margin-top: 0;
+    }
+    .price-element span:first-child {
+        line-height: 1.5em;
+    }
+    .price-element td:first-child {
+        padding-right: 60px;
+        line-height: 1.5em;
+    }
+    .price-element td span {
+        white-space: nowrap;
+    }
+    .price-element td {
+        font-size: 14px;
+    }
+    .description-price {
+        padding-bottom: 25px;
+    }
+    .price-page--right div:last-child {
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    .price-page--block {
+        margin: 0;
+        font-size: 14px;
+        padding: 0px;
+    }
+    .price-page--title {
+        font-size: 30px;
+        margin: 0;
+    }
+    .price-left--block {
+        padding: 0;
+    }
+    /*    .price-right--block {
+        padding: 0px;
+    }*/
+    .price-page--left a {
+        font-size: 14px;
+    }
+    /*Просмотр работы*/
+    .review-img {
+        padding-top: 30px;
+        padding: 0;
+        margin: 0;
+    }
+    .description-box {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .description-block {
+        text-align: center;
+        margin-top: 40px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .description-block--center {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .review-master--name {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .review-master--text {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: -10px;
+    }
+    .review-picture {
+        padding: 0;
+    }
+    .review-more {
+        margin-left: 30px;
+        margin-top: 20px;
+        left: 0;
+        text-align: start;
+    }
+    .review-info h4 a {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .review-info p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    /* Главная*/
+    /*_________Промо__________ */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .baraka-header {
+        background-position: center center;
+    }
+    .mobile-menu {
+        position: absolute;
+        z-index: 10;
+        width: 250px;
+    }
+    .spb-sml {
+        display: none;
+    }
+    .picture-promo {
+        height: 500px;
+    }
+    .menu {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        right: 0;
+    }
+    .menu-top--box {
+        margin-left: 0;
+        position: relative;
+        text-align: start;
+    }
+    .menu-100 {
+        width: 100%;
+    }
+    body.open-sidebar #sidebar {
+        right: 0px;
+        width: 240px;
+    }
+    #sidebar {
+        position: absolute;
+        right: -240px;
+        background-color: #111111;
+        width: 0px;
+        /*height: 97%;*/
+        box-sizing: border-box;
+        z-index: 2;
+        top: 15px;
+        display: block;
+        -webkit-transition: right 0.4s ease-in-out;
+        -moz-transition: right 0.4s ease-in-out;
+        -ms-transition: right 0.4s ease-in-out;
+        -o-transition: right 0.4s ease-in-out;
+        transition: right 0.4s ease-in-out;
+        overflow: hidden;
+    }
+    body.open-sidebar .main-page {
+        left: -240px;
+    }
+    .main-page {
+        position: relative;
+        left: 0;
+        -webkit-transition: left 0.4s ease-in-out;
+        -moz-transition: left 0.4s ease-in-out;
+        -ms-transition: left 0.4s ease-in-out;
+        -o-transition: left 0.4s ease-in-out;
+        transition: left 0.4s ease-in-out;
+    }
+    #sidebar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        padding-top: 5px;
+    }
+    .sidebar1 {
+        background: #181818;
+    }
+    .sidebar2 {
+        background-color: #111111;
+        height: 250px;
+        position: relative;
+        /*top: 15px;*/
+    }
+    #sidebar ul li {
+        padding-bottom: 19px;
+        padding-left: 20px;
+    }
+    .sidebar2 li span {
+        color: #858585;
+        display: inline-block;
+        padding-right: 3px;
+    }
+    #sidebar ul li a {
+        /*      padding-top: 19px;
+        padding-left: 20px;*/
+        font-size: 16px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        list-style: none;
+        display: inline-block;
+        -webkit-transition: background 0.3s ease-in-out;
+        -moz-transition: background 0.3s ease-in-out;
+        -ms-transition: background 0.3s ease-in-out;
+        -o-transition: background 0.3s ease-in-out;
+        transition: background 0.3s ease-in-out;
+    }
+    .first-item-sidebar2 {
+        padding-top: 25px;
+    }
+    .end-item-sidebar1 {
+        padding-bottom: 25px;
+    }
+    #sidebar ul li:before {
+        color: inherit;
+        content: "";
+        padding-right: 0px;
+    }
+    .main-content {
+        float: right;
+        left: 90%;
+        /*width: 100%;*/
+        /*height: 100%;*/
+        padding: 10px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        position: absolute;
+        z-index: 10;
+    }
+    .main-content .content {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        width: 100%;
+    }
+    .main-content .content p {
+        width: 100%;
+        line-height: 160%;
+    }
+    .main-content #sidebar-toggle {
+        border-radius: 3px;
+        display: block;
+        position: relative;
+        padding: 10px 7px;
+        float: right;
+        margin-top: -12px;
+        margin-right: 40px;
+    }
+    .main-menu #sidebar-toggle {
+        margin-top: 0;
+        top: 8px;
+    }
+    .menu-top--box .top-header .main-content #sidebar-toggle {
+        margin-top: -9px;
+    }
+    .main-content #sidebar-toggle .bar {
+        display: block;
+        width: 18px;
+        margin-bottom: 3px;
+        height: 2px;
+        background-color: #fff;
+        border-radius: 1px;
+    }
+    .baraka-top--box {
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+    .baraka-top--box .baraka-logo img {
+        margin-left: -5px;
+        right: 0;
+    }
+    .baraka-menu--item {
+        display: none;
+    }
+    .city-item {
+        display: none;
+    }
+    .selection {
+        display: none;
+    }
+    .rus-eng {
+        display: none;
+    }
+    .baraka-main--menu .social-item.header-social-fb:before {
+        top: 370px;
+        left: -135px;
+    }
+    .baraka-main--menu .social-item.header-social-vk:before {
+        top: 372px;
+        left: -120px;
+    }
+    .baraka-main--menu .social-item.header-social-insta:before {
+        top: 370px;
+        left: -90px;
+    }
+    .baraka-main--menu .social-item.header-social-youtube:before {
+        top: 370px;
+        left: -65px;
+    }
+    .promo-title {
+        font-size: 30px;
+        line-height: 36px;
+        padding: 170px 0px 200px 75px;
+    }
+    .baraka-logo img {
+        max-width: 150px;
+    }
+    .baraka-top--box .baraka-logo {
+        left: 20px;
+    }
+    .bxslider-box .bx-wrapper .bx-viewport {
+        height: 500px;
+        z-index: 8;
+    }
+    /*_______О Студии_______*/
+    .about-studio {
+        padding-bottom: 0px;
+        background-color: #fff;
+    }
+    .about-studio--left {
+        padding-left: 0;
+        text-align: center;
+        padding-top: 0;
+    }
+    .about-studio-title {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .about-studio-text,
+    .about-studio-text2 {
+        /*display: none;*/
+    }
+    .about-studio--right {
+        padding-left: 20px;
+        margin-top: 160px;
+        margin-bottom: 40px;
+    }
+    .item-masters {
+        margin-left: -15px;
+    }
+    .item-price {
+        /*margin-left: -40px;*/
+        padding-left: 70px;
+    }
+    .studio-right--item {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .item-portfolio:before {
+        left: 50%;
+        margin-left: -35px;
+    }
+    .item-price:before {
+        margin-left: 20px;
+    }
+    .item-contacts:before {
+        left: 50%;
+        margin-left: -45px;
+    }
+    .item-contacts {
+        padding-right: 40px;
+    }
+    /*_______Мастера_______*/
+    .masters-main {
+        background-position: top center;
+        background-size: 700px;
+    }
+    .masters-main--title {
+        /*padding-top: 40px;*/
+        margin-top: 40px;
+        font-size: 30px;
+        line-height: 58px;
+    }
+    .masters-page--title {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .masters-list .masters-picture {
+        padding-top: 30px;
+    }
+    .master-info-text p:last-child {
+        margin-bottom: 20px;
+    }
+    .box--one {
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    .masters-picture-slider {
+        display: none;
+    }
+    .box--two {
+        display: none;
+    }
+    .masters-main--title {
+        margin-bottom: 0px;
+    }
+    /*_______Портфолио_______*/
+    .portfolio-main--title {
+        font-size: 30px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .portfolio-page--title {
+        font-size: 30px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .portfolio-main--box {
+        margin-top: 35px;
+    }
+    .photo-100 {
+        width: 100%;
+    }
+    .portfolio-main--box .portfolio-main--picture:nth-child(4n+1) {
+        display: none;
+    }
+    .portfolio-main--box .portfolio-main--picture:nth-child(7n+3) {
+        display: none;
+    }
+    .portfolio-main--picture img {
+        /* height: 100vw;*/
+        width: 100%;
+    }
+    .portfolio-main--box .hover-block {
+        /*height: 100vw;*/
+        width: 100%
+    }
+    .text-hover--block2 p {
+        font-size: 20px;
+    }
+    .baraka-btn {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .baraka-btn:hover {
+        color: #fff;
+    }
+    /*_______Обратная свзяь_______*/
+    .form-main--title {
+        font-size: 30px;
+        line-height: 48px;
+        padding-top: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .form-box {
+        padding-top: 25px;
+        width: 65%;
+    }
+    .btn-form {
+        float: none;
+        padding: 15px 70px;
+    }
+    .form-fields,
+    .form-complite {
+        height: 550px;
+    }
+    .form-fields {
+        height: 550px;
+    }
+    .form-main {
+        padding-bottom: 120px;
+    }
+    /*_______Карта_______*/
+    .mytooltip {
+        /*margin-left: -130px;*/
+    }
+    /*_______Инфо-блок_______*/
+    .info-block--title {
+        margin-top: 40px;
+    }
+    .info-box {
+        padding-top: 25px;
+        width: 100%;
+    }
+    .info-btn {
+        font-size: 14px;
+    }
+    /*_______Футер_______*/
+    .baraka-logo_footer img {
+        max-width: 130px;
+        margin-left: -10px;
+    }
+    .footer-box--top {
+        width: 720px;
+        padding-top: 40px;
+    }
+    .footer-item {
+        /*padding-left: 65px;*/
+        margin-left: 65px;
+    }
+    .footer-box--down {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        /*width: 225px;*/
+        margin: 0 auto;
+    }
+    .footer-mobile--bottom {
+        width: 300px;
+        padding-bottom: 60px;
+    }
+    .footer-copyright {
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 14px;
+        font-family: "intro_book";
+    }
+    .share-png:before {
+        left: -35px;
+    }
+    /*Мастера*/
+    .master-page {
+        padding: 0;
+    }
+    .masters-box--one,
+    .masters-box--two,
+    .masters-box--three,
+    .masters-box--four,
+    .masters-box--five,
+    .masters-box--six,
+    .masters-box--seven {
+        padding: 0px;
+        margin-top: 0;
+    }
+    .masters-picture {
+        padding-top: 30px;
+    }
+    .masters-picture img {
+        /* height: 290px;*/
+    }
+    /*Портфолио*/
+    .portfolio {
+        padding-bottom: 0;
+    }
+    .portfolio-box {
+        padding-top: 45px;
+    }
+    .portfolio-picture img {
+        height: 50vw;
+    }
+    .header-bottom--line {
+        border-bottom: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .refresh-png {
+        display: none;
+    }
+    /*Cтатьи*/
+    .articles-title {
+        font-size: 30px;
+        padding-top: 0px;
+        margin-bottom: 15px;
+    }
+    .articles-block {
+        padding-top: 20px;
+    }
+    .row:nth-child(2n) .articles-text--block {
+        float: right;
+    }
+    .row:nth-child(2n+1) .articles-picture--block {
+        float: right;
+    }
+    .artilces-text--one {
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin: 0;
+    }
+    .articles-title:before {
+        top: 92px;
+    }
+    .articles-text--two {
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .articles-more {
+        padding-left: 20px;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+    .articles-more:before {
+        left: 115px;
+        top: 5px;
+    }
+    /*Cтраница статьи*/
+    .articles-page--main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    articles-page--main img {
+        padding: 0;
+    }
+    .articles-page--main h5 {
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .articles-page--main p {
+        width: 100%;
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .articles-page--main p:last-child {
+        padding-bottom: 40px;
+    }
+    .articles-page--block img {
+        padding: 0;
+        float: none;
+    }
+    .articles-page--block {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .articles-page--title {
+        font-size: 30px;
+        line-height: 36px;
+        padding-top: 0px;
+    }
+    .all-items--aricles {
+        margin: 0;
+        padding-left: 15px;
+        margin-left: 10px;
+    }
+    .articles-text--block h3 {
+        font-size: 3vw;
+        margin-left: 50px;
+        line-height: 3vw;
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+    .articles-text--block p {
+        margin-left: 50px;
+        font-size: 1.4vw;
+        line-height: 1.5em;
+        padding-bottom: 45px;
+        width: 80%;
+    }
+    .articles-page--title {
+        font-size: 30px;
+        line-height: 36px;
+        padding-top: 0px;
+    }
+    /*Cтудия*/
+    .studio-page--title {
+        margin: 0;
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .width-100 {
+        width: 100%;
+    }
+    .who-title {
+        padding-top: 70px;
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 24px;
+    }
+    .studio-block--text {
+        padding: 0;
+    }
+    .studio-admins--block {
+        padding: 0;
+        margin: 0;
+    }
+    .studio-director--text,
+    .studio-director--img {
+        padding-top: 90px;
+    }
+    .studio-director--text {
+        margin-left: 25px;
+    }
+    .studio-block--text p {
+        font-size: 14px;
+        margin-bottom: 0;
+        line-height: 20px;
+        width: 100%;
+    }
+    .studio-director--text p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+    .studio-block--end {
+        width: 100%;
+        padding-left: 15px;
+    }
+    .studio-block--end p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .studio-slider--img {
+        width: 100%;
+        max-width: 85%;
+        max-height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .studio-director--text h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .prev,
+    .next {
+        display: block;
+    }
+    .mini-prev,
+    .mini-next {
+        display: none;
+    }
+    .studio-text,
+    .admins-text {
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .admins-block--one {
+        margin-top: 0px;
+        padding-top: 60px;
+    }
+    .admins-block--two {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .studio-director--img,
+    .studio-manager-img {
+        /*padding: 0;*/
+    }
+    .director-img,
+    .manager-img {
+        padding: 0;
+    }
+    /*Страница мастера*/
+    .masters-info--box img {
+        height: 50vw;
+    }
+    .master-social {
+        font-size: 13px;
+        line-height: 18px;
+        padding-top: 10px;
+    }
+    .master-info--picture {
+        /*min-height: 425px;*/
+        margin-top: 10px;
+    }
+    .all-masters {
+        margin: 0;
+        margin-right: -200px;
+        margin-top: -50px;
+    }
+    .master-text--one {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .master-painting:after {
+        display: none;
+    }
+    .master-social {
+        margin-bottom: 0;
+    }
+    .master-info--block {
+        /*padding-top: 10px;*/
+    }
+    .master-instagram:before {
+        top: 12px;
+    }
+    .width-21 {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .masters-info--box .hover-block {
+        overflow: hidden;
+        height: 50vw;
+    }
+    .master-info-text {
+        margin: 0;
+        padding-top: 40px;
+    }
+    .master-info-text {
+        margin-left: 20px;
+        padding-top: 40px;
+    }
+    .master-info--img {
+        margin-top: 30px;
+    }
+    .master-info-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .master-adress {
+        padding-bottom: 20px;
+    }
+    .master-info-text h3 {
+        font-size: 30px;
+        line-height: 46px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .master-info-text span {
+        margin-top: 20px;
+    }
+    .master-facebook:before {
+        top: 10px;
+    }
+    .master-logo {
+        display: none;
+    }
+    /*Контакты*/
+    .contacts-page--title {
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        margin: 0;
+    }
+    .contacts-block {
+        margin-left: 0;
+    }
+    .contacts-block span {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .contacts-block p {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+    .contacts-block:last-child {
+        /*padding-bottom: 65px;*/
+    }
+    ntacts-text--one {
+        font-size: 19px;
+        line-height: 20px;
+        margin-bottom: 0px;
+    }
+    .contacts-text--two {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .mobile-contacts--menu {
+        display: block;
+    }
+    .contacts-text--end {
+        margin-bottom: 240px;
+    }
+    /*Услуги и цены*/
+    .price-page--block {
+        margin: 0;
+        padding: 0px;
+        font-size: 14px;
+    }
+    .price-page--block p {
+        font-size: 14px;
+        padding: 0;
+    }
+    .price-page--block .price-text--one {
+        font-size: 18px;
+        line-height: 22px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .price-page--title {
+        font-size: 30px;
+        margin: 0;
+    }
+    .price-left--block {
+        padding: 0;
+    }
+    .price-row {
+        padding: 0;
+    }
+    .price-page--right div:last-child {
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    .price-element td:first-child {
+        line-height: 1.5em;
+    }
+    .price-right--block {
+        padding: 0px;
+    }
+    /*Просмотр работы*/
+    .review-picture {
+        text-align: center;
+    }
+    .description-box {
+        text-align: center;
+    }
+    .review-picture {
+        padding: 0;
+    }
+    .review-more {
+        margin-left: 30px;
+        margin-top: 20px;
+        left: 0;
+        text-align: start;
+    }
+    .review-info h4 a {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .review-info p {
+        font-size: 14px;
+    }
+    .description-box {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .description-block {
+        text-align: center;
+        margin-top: 40px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .description-block--center {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+
+/*@media (min-width: 768px) and (max-width:) {
+    .row:nth-child(2n) .articles-text--block {
+        float: right;
+    }
+    .row:nth-child(2n+1) .articles-picture--block {
+        float: right;
+    }
+}
+*/
+
+
+/*@media (min-width: 320px) and (max-width: 768px) {
+    .mytooltip {
+        left: 50%;
+        margin-left: 130px;
+    }
+}
+*/
+
+@media (min-width: 1200px) and (max-width: 1420px) {
+    .baraka-menu--item {
+        margin-right: 20px;
+    }
+    .baraka-top--box {
+        margin-left: 30px;
+        width: 90%;
+        text-align: start;
+    }
+    .menu-top--box {
+        margin-left: 15px;
+        width: 90%;
+        text-align: start;
+    }
+    .footer-item {
+        /*padding-left: 70px;*/
+    }
+    .photo-100 {
+        width: 100%;
+    }
+    .master-social {
+        font-size: 14px;
+    }
+    .master-text--one {
+        font-size: 14px;
+        margin-bottom: -20px;
+    }
+    .footer-box--top {
+        width: 65%;
+    }
+    .share-png:before {
+        left: -30px;
+    }
+    .all-masters {
+        margin-bottom: 25px;
+    }
+    .master-facebook {
+        /*margin-top: 15px;*/
+    }
+    .master-facebook:before {
+        top: 8px;
+    }
+    .review-more {
+        margin-left: -40%;
+    }
+    .glide--horizontal .glide__arrows {
+        /*top: 40%;*/
+        width: 92%;
+        margin-left: 4%;
+        /*padding-top: 250px;*/
+    }
+    .glide--horizontal .glide__arrow.prev {
+        left: 17%;
+        top: -60px;
+    }
+    .glide--horizontal .glide__arrow.next {
+        right: -80%;
+        top: -100px;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1420px) {
+    .spb-sml {
+        margin-left: 101px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .baraka-menu--item {
+        margin-right: 85px;
+    }
+    .baraka-top--box {
+        width: 100%;
+        margin-left: 80px;
+        text-align: start;
+    }
+    .menu-top--box {
+        width: 100%;
+        margin-left: 65px;
+        text-align: start;
+    }
+    .spb-sml {
+        margin-left: 110px;
+    }
+    .portfolio-main--box .hover-block:hover p {
+        font-size: 22px;
+    }
+    .picture-promo .promo-title {
+        padding-left: 0;
+    }
+    .h1-block {
+        width: 85%;
+    }
+    .city-item {
+        margin-left: 65px;
+    }
+    .promo-title {
+        padding-left: 150px;
+    }
+    /*_______Футер_______*/
+    .footer-box--top {
+        width: 47%;
+        padding-top: 40px;
+    }
+    .footer-box--down {
+        text-align: center;
+    }
+    .studio-picture {
+        text-align: center;
+    }
+    /*Cтатьи*/
+    .articles-picture--img {
+        padding: 0px;
+    }
+    .artilces-text--one {
+        padding-top: 90px;
+    }
+    .articles-text--two {
+        padding-top: 20px;
+    }
+    .articles-more {
+        padding-top: 30px;
+    }
+    .about-studio--box {
+        width: 85%;
+    }
+    .studio-right--item {
+        position: relative;
+    }
+    .item-price:before {
+        /*left: 33px;*/
+    }
+    .item-contacts:before {
+        /*right: 130px;*/
+    }
+    .articles-more:before {
+        top: 35px;
+        right: 35px;
+    }
+    .masters-picture img {
+        /*height: 270px;*/
+    }
+}

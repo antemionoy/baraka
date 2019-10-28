@@ -1,0 +1,105 @@
+.glide--vertical .glide__arrow {
+    // -webkit-transform: translateX(-50%);
+    // -ms-transform: translateX(-50%);
+    // transform: translateX(-50%);
+}
+
+.glide--vertical .glide__arrow.prev {
+    top: 0;
+}
+
+.glide--vertical .glide__arrow.next {
+    bottom: 0;
+}
+
+.glide__bullets {
+    position: absolute;
+    z-index: 2;
+    list-style: none;
+}
+
+.glide--horizontal .glide__bullets {
+    bottom: 8%;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    text-align: center;
+}
+
+.glide--vertical .glide__bullets {
+    // top: 50%;
+    // right: 8%;
+    // width: 12px;
+    // height: auto;
+    // -webkit-transform: translateY(-50%);
+    // -ms-transform: translateY(-50%);
+    // transform: translateY(-50%);
+}
+
+.glide--horizontal .glide__bullets > * {
+    margin: 0 5px;
+}
+
+.glide--vertical .glide__bullets > * {
+    vertical-align: middle;
+}
+
+.glide__arrows {
+    position: absolute;
+}
+
+.glide--horizontal .glide__arrows {
+    /*top: 40%;*/
+    width: 92%;
+    margin-left: 4%;
+    padding-top: 250px;
+}
+
+.glide--vertical .glide__arrows {
+    left: 50%;
+    height: 88%;
+    margin-top: 6%;
+}
+
+.glide__arrow {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-transform: uppercase;
+    font: 11px Arial, sans-serif;
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    opacity: 1;
+    -webkit-transition: opacity 150ms ease, border 300ms ease-in-out;
+    transition: opacity 150ms ease, border 300ms ease-in-out;
+    font-size: 0;
+}
+
+.glide__arrow:focus {
+    outline: none;
+}
+
+.glide--horizontal .glide__arrow {
+    // -webkit-transform: translateY(-50%);
+    // -ms-transform: translateY(-50%);
+    // transform: translateY(-50%);
+}
+
+@media (min-width: 1700px) {
+    .glide--horizontal .glide__arrow.next {
+        /*right: -33%;*/
+        /*top: 250px;*/
+    }
+    .glide--horizontal .glide__arrow.prev {
+        /*left: -31%;*/
+        /*top: 220px;*/
+    }
+    .glide--horizontal .glide__arrows {
+        /*top: 40%;*/
+        width: 92%;
+        margin-left: 4%;
+        padding-top: 300px;
+    }
+}
