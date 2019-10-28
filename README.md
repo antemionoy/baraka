@@ -1,4 +1,4 @@
-# БАРАКА - barakatattoo.ru
+# БАРАКА - https://barakatattoo.ru/
 
 Мой первый коммерчкский проектю
 
